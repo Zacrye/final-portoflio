@@ -1,0 +1,92 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Playfair Display', serif;
+}
+
+h1,h2,h3{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: table;
+  background: url("../img/waves.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+.line{
+  width: 50%;
+  height: 2px;
+  /*margin: 0 auto;*/
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1{
+  color: white;
+  font-size: 5vw;
+  width: 50%;
+  font-weight: bold;
+  font-family:inherit;
+}
+
+.text-vertical-center .btn{
+  margin-top: 170px;
+  color: white;
+  border: 3px solid;
+  transition: all 0.6s ease;
+  border-radius: 0px;
+}
+
+.learn_more{
+  width: 312px;
+  height: 98px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.learn_more:hover{
+  background-color: rgba(255, 255, 255, 0.3);;
+}
+
+@media (max-width: 768px){
+  .text-vertical-center h1{
+    font-size: 7vw;
+  }
+
+  .line{
+    height: 2px;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .text-vertical-center .btn{
+    margin-top: 35px;
+    color: white;
+    border: 3px solid;
+    transition: all 0.6s ease;
+    border-radius: 0px;
+  }
+
+  .learn_more{
+    width: 130px;
+    height: 52px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
